@@ -23,7 +23,7 @@ int numChars = 26;      // There are 26 characters in the alphabet
 color[] colors = new color[numChars];
 
 void setup() {
-  size(720, 360);
+  size(240, 360);
   noStroke();
   colorMode(HSB, numChars);
   background(numChars/2);
